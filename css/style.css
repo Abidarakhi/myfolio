@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+/**common css */
+.container{
+    width: 1170;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+   
+    
+}
+
+.align-center{
+    align-items: center;
+}
+
+.button{
+    padding: 19px 42px;
+    color: #0b1016;
+    font-size: 14px;
+    font-weight: 800;
+    background-color: #cfc91d;
+    display: inline-block;
+    
+
+}
+
+.heading{
+    text-align: center;
+    color: #02918c;
+    font-weight: 800;
+    font-size: 46px;
+    position: relative;
+    
+}
+.heading::after{
+    content: '';
+    width: 162px;
+    height: 9px;
+    position: absolute;
+    background-image: url(../css/image/shape.png);
+    bottom: -35px;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+    /* NABVAR STARTS HERE */
+    nav{
+        background-color: #02918c;
+    }
+    nav .menu{
+        width: 90%;
+        text-align: right;
+    } 
+    nav .menu ul li{
+        display: inline-block;
+    }
+    nav .menu ul li a{
+        color:white;
+        Font-weight:800;
+        font-size: 12px;
+        padding: 25px;
+        display: block;
+    }
+
+
+    /* *banner starts */
+    #banner {
+        background-image: url(../css/image/imag.png);
+        height: 725px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        color: white;
+        
+        
+
+    }
+     #banner .container{ 
+        height: 100%;
+    }
+    #banner .row{
+        height: 100%;
+    }
+
+
+    .banner_cnt{
+        
+        width:100%;
+        
+
+    }
+
+    .banner_cnt h4{
+        font-size: 30px;
+        font-weight: 400;
+        color: white;
+    }
+
+    .banner_cnt h2{
+        font-size: 68px;
+        font-size: 800;
+        letter-spacing: 30px;
+        color: white;
+
+    }
+    .banner_cnt p{
+        color: white;
+    }
+
+    .banner_cnt img{
+        display: block;
+        margin: 52px auto;
+        color: white;
+    }
+
+    /* * ABOUT ME */
+
+    #about{
+        padding: 100px 0;
+    }
+
+    #about .detail{
+        width: 80%;
+        margin: 80px auto;
+        text-align: center;
+        font-size: 16px;
+        color: #7e8287;
+
+    }
+    #about .detail span{
+        font-size: 23px;
+        font-weight: 800;
+    }
+
+    .about_card{
+       border-right: 1px solid #cccc; 
+        width: 25%;
+        text-align: center;
+        padding: 40px 0;
+    }
+    .about_card span{
+        color: #04928d;
+        font-size:30px;
+    
+    }
+    .about_card h4{
+        font-size: 16px;
+        font-weight: 800;
+        color: #7e8287;
+        margin: 30px;
+    } 
+
+    .about_card p{
+        font-size: 11px;
+        font-weight: 400;
+        color: #7e8287;
+        padding: 0 40px;
+    } 
+    
+    .about_card:last-child{
+        border: none;
+    }
+
+
+
+  
+
+
+
+    /* Work */
+    #Work{
+        padding: 60px 0;
+    }
+    #Work .detail{
+        width: 80%;
+        margin: 80px auto;
+        text-align: center;
+        font-size: 16px;
+        color: #7e8287;
+    }
+
+    
+
+
+
+
+
+
+    .Work_wrapper{
+        margin-top: 80px;
+    }
+
+.work_card{
+    width: 25%;
+    position: relative;
+    
+}
+
+.work_card img{
+    width: 100%;
+    display: block;
+}
+
+
+#contact{
+    padding: 60px 0;
+}
+#contact .detail{
+    width: 80%;
+    margin: 80px auto;
+    text-align: center;
+    font-size: 16px;
+    color: #7e8287;
+}
+
+    
+    
+
+    
